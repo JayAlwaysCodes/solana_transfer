@@ -12,18 +12,18 @@
         "build": "./_cicd/cicd.sh build",
         "deploy": "./_cicd/cicd.sh deploy",
         "reset-and-build": "./_cicd/cicd.sh reset-and-build",
-        "simulation": "ts-node ./client/main.ts"
+        "simulation": "ts-node ../client/main.ts"
     },
     "dependencies": {
-        "@solana/web3.js": "^1.33.0",
+        "@solana/web3.js": "^1.91.8",
         "buffer-layout": "^1.2.2"
     },
     "devDependencies": {
         "@tsconfig/recommended": "^1.0.1",
         "@types/node": "^15.6.1",
-        "ts-node": "^10.0.0",
-        "typescript": "^4.2.4",
-        "prettier": "^2.3.0"
+        "prettier": "^2.3.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^4.2.4"
     },
     "engines": {
         "node": ">=14.0.0"
